@@ -46,12 +46,13 @@ class MainActivity : ComponentActivity() {
 
 @Preview
 @Composable
-fun DefaultPreview(){
-    BasicStateCodelabTheme { Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colors.background
-    ) {
-        WellnessScreen()
-    }
+fun DefaultPreview() {
+    BasicStateCodelabTheme {
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colors.background
+        ) {
+            WellnessScreen()
+        }
     }
 }
